@@ -116,8 +116,8 @@ export default function Home() {
           </div>
         </div>
 
-        {/* Green Banner */}
-        <div className="bg-teal-500 text-white p-4 rounded-lg mb-8 text-center">
+        {/* Blue Banner */}
+        <div className="bg-[#0067BC] text-white p-4 rounded-lg mb-8 text-center">
           <p className="text-xl font-medium">
             From Novice to Linux Pro, Power Up Your Tech Career, Professional Linux Engineering Starts Here
           </p>
@@ -210,7 +210,7 @@ export default function Home() {
             {/* Special Offer Section */}
             <div className="mt-12 space-y-8">
               <div className="text-center">
-                <p className="text-teal-500 font-handwriting text-2xl mb-4">Our Best Offer in History...</p>
+                <p className="text-red-500 font-handwriting text-2xl mb-4">Our Best Offer in History...</p>
                 <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
                   Get Lifetime Access To Our Complete Red Hat Linux Administrator Training Program...
                 </h2>
@@ -219,7 +219,7 @@ export default function Home() {
                 </p>
                 <button 
                   onClick={() => highlightOrderForm()}
-                  className="bg-teal-500 text-white text-xl px-8 py-4 rounded-lg shadow-lg hover:bg-teal-600 transition-colors mb-8"
+                  className="bg-[#0067BC] text-white text-xl px-8 py-4 rounded-lg shadow-lg hover:bg-[#005ba8] transition-colors mb-8"
                 >
                   Yes! I Want All Access For Just $599!
                 </button>
@@ -241,7 +241,7 @@ export default function Home() {
                   <div className="text-left max-w-2xl mx-auto">
                     <h4 className="text-xl font-semibold mb-4">Our proven curriculum includes:</h4>
                     <ul className="list-disc pl-6 space-y-2 text-gray-700">
-                      <li>27+ hours of live instructor-led training</li>
+                      <li>48+ hours of live instructor-led training</li>
                       <li>100+ hands-on lab exercises</li>
                       <li>Practice exam simulations</li>
                       <li>Resume building workshops</li>
@@ -351,7 +351,7 @@ export default function Home() {
 
                 <button 
                   onClick={() => highlightOrderForm()}
-                  className="bg-teal-500 text-white text-xl px-8 py-4 rounded-lg shadow-lg hover:bg-teal-600 transition-colors"
+                  className="bg-[#0067BC] text-white text-xl px-8 py-4 rounded-lg shadow-lg hover:bg-[#005ba8] transition-colors"
                 >
                   Yes! I Want Lifetime Access For Just $599!
                 </button>
@@ -439,7 +439,7 @@ export default function Home() {
               <div className="mt-12 text-center">
                 <button 
                   onClick={() => highlightOrderForm()}
-                  className="bg-teal-500 text-white text-xl px-8 py-4 rounded-lg shadow-lg hover:bg-teal-600 transition-colors"
+                  className="bg-[#0067BC] text-white text-xl px-8 py-4 rounded-lg shadow-lg hover:bg-[#005ba8] transition-colors"
                 >
                   Yes! I Want Lifetime Access For Just $599!
                 </button>
@@ -473,7 +473,7 @@ export default function Home() {
                         </div>
                         <div>
                           <p className="text-lg font-semibold text-white">{testimonial.name}</p>
-                          <p className="text-teal-400">{testimonial.role}</p>
+                          <p className="text-[#0067BC]">{testimonial.role}</p>
                         </div>
                       </div>
                       <blockquote>
@@ -488,9 +488,9 @@ export default function Home() {
             {/* Benefits Section */}
             <div className="max-w-4xl mx-auto my-20">
               <div className="text-center mb-12">
-                <p className="text-2xl text-[#47c1bf] font-handwriting">Awesome Offer #27</p>
+                <p className="text-2xl text-[#0067BC] font-handwriting">Awesome Offer #27</p>
                 <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-                  Last But <span className="underline decoration-[#47c1bf] decoration-4">Definitely</span> Not Least, You'll Get Our
+                  Last But <span className="underline decoration-[#0067BC] decoration-4">Definitely</span> Not Least, You'll Get Our
                   <span className="block">Ultimate Linux Administrator's Toolkit!</span>
                 </h2>
                 <p className="text-xl text-gray-700 mb-8">
@@ -504,26 +504,26 @@ export default function Home() {
                   <div>
                     <ul className="space-y-6">
                       <li className="flex items-center space-x-3">
-                        <span className="flex-shrink-0 w-8 h-8 bg-[#47c1bf]/10 rounded-lg flex items-center justify-center">
-                          <span className="text-[#47c1bf] text-xl">✓</span>
+                        <span className="flex-shrink-0 w-8 h-8 bg-[#0067BC]/10 rounded-lg flex items-center justify-center">
+                          <span className="text-[#0067BC] text-xl">✓</span>
                         </span>
                         <span className="text-gray-700 text-lg">Complete command reference guides</span>
                       </li>
                       <li className="flex items-center space-x-3">
-                        <span className="flex-shrink-0 w-8 h-8 bg-[#47c1bf]/10 rounded-lg flex items-center justify-center">
-                          <span className="text-[#47c1bf] text-xl">✓</span>
+                        <span className="flex-shrink-0 w-8 h-8 bg-[#0067BC]/10 rounded-lg flex items-center justify-center">
+                          <span className="text-[#0067BC] text-xl">✓</span>
                         </span>
                         <span className="text-gray-700 text-lg">System troubleshooting playbooks</span>
                       </li>
                       <li className="flex items-center space-x-3">
-                        <span className="flex-shrink-0 w-8 h-8 bg-[#47c1bf]/10 rounded-lg flex items-center justify-center">
-                          <span className="text-[#47c1bf] text-xl">✓</span>
+                        <span className="flex-shrink-0 w-8 h-8 bg-[#0067BC]/10 rounded-lg flex items-center justify-center">
+                          <span className="text-[#0067BC] text-xl">✓</span>
                         </span>
                         <span className="text-gray-700 text-lg">Security hardening checklists</span>
                       </li>
                       <li className="flex items-center space-x-3">
-                        <span className="flex-shrink-0 w-8 h-8 bg-[#47c1bf]/10 rounded-lg flex items-center justify-center">
-                          <span className="text-[#47c1bf] text-xl">✓</span>
+                        <span className="flex-shrink-0 w-8 h-8 bg-[#0067BC]/10 rounded-lg flex items-center justify-center">
+                          <span className="text-[#0067BC] text-xl">✓</span>
                         </span>
                         <span className="text-gray-700 text-lg">Performance optimization templates</span>
                       </li>
@@ -532,20 +532,20 @@ export default function Home() {
                   <div>
                     <ul className="space-y-6">
                       <li className="flex items-center space-x-3">
-                        <span className="flex-shrink-0 w-8 h-8 bg-[#47c1bf]/10 rounded-lg flex items-center justify-center">
-                          <span className="text-[#47c1bf] text-xl">✓</span>
+                        <span className="flex-shrink-0 w-8 h-8 bg-[#0067BC]/10 rounded-lg flex items-center justify-center">
+                          <span className="text-[#0067BC] text-xl">✓</span>
                         </span>
                         <span className="text-gray-700 text-lg">Network configuration guides</span>
                       </li>
                       <li className="flex items-center space-x-3">
-                        <span className="flex-shrink-0 w-8 h-8 bg-[#47c1bf]/10 rounded-lg flex items-center justify-center">
-                          <span className="text-[#47c1bf] text-xl">✓</span>
+                        <span className="flex-shrink-0 w-8 h-8 bg-[#0067BC]/10 rounded-lg flex items-center justify-center">
+                          <span className="text-[#0067BC] text-xl">✓</span>
                         </span>
                         <span className="text-gray-700 text-lg">Shell scripting examples</span>
                       </li>
                       <li className="flex items-center space-x-3">
-                        <span className="flex-shrink-0 w-8 h-8 bg-[#47c1bf]/10 rounded-lg flex items-center justify-center">
-                          <span className="text-[#47c1bf] text-xl">✓</span>
+                        <span className="flex-shrink-0 w-8 h-8 bg-[#0067BC]/10 rounded-lg flex items-center justify-center">
+                          <span className="text-[#0067BC] text-xl">✓</span>
                         </span>
                         <span className="text-gray-700 text-lg">And much more...</span>
                       </li>
@@ -555,7 +555,7 @@ export default function Home() {
                 <div className="mt-8 pt-6 border-t border-gray-100 text-center">
                   <p className="text-xl font-bold text-gray-900">
                     Total Value: <span className="line-through text-gray-500">$997</span> 
-                    <span className="text-[#47c1bf] ml-2">Included Free!</span>
+                    <span className="text-[#0067BC] ml-2">Included Free!</span>
                   </p>
                 </div>
               </div>
@@ -564,11 +564,11 @@ export default function Home() {
               <div className="text-center">
                 <button 
                   onClick={() => highlightOrderForm()}
-                  className="bg-[#47c1bf] text-white text-xl px-12 py-4 rounded-lg shadow-lg hover:bg-[#339e9c] transition-all duration-300 transform hover:scale-105 mb-8"
+                  className="bg-[#0067BC] text-white text-xl px-12 py-4 rounded-lg shadow-lg hover:bg-[#005ba8] transition-all duration-300 transform hover:scale-105 mb-8"
                 >
                   Yes! I Want All Access For Just $599!
                 </button>
-                <p className="text-[#47c1bf] text-2xl font-handwriting mt-4">
+                <p className="text-[#0067BC] text-2xl font-handwriting mt-4">
                   INCLUDED In This Amazing Offer!
                 </p>
               </div>
@@ -579,38 +579,38 @@ export default function Home() {
               <div className="bg-gradient-to-br from-[#1a2937] to-[#2d3f50] text-white rounded-2xl p-8 md:p-12 shadow-2xl">
                 <h2 className="text-3xl md:text-4xl font-bold mb-8">
                   Get Lifetime Access To Our Complete Linux Administrator Training Program
-                  <span className="block text-[#47c1bf] mt-2">For Just $599!</span>
+                  <span className="block text-[#0067BC] mt-2">For Just $599!</span>
                 </h2>
 
                 {/* Features Grid */}
                 <div className="grid md:grid-cols-2 gap-4 mb-8 text-left max-w-2xl mx-auto">
                   <div className="flex items-start space-x-3">
-                    <span className="text-[#47c1bf] text-xl">→</span>
+                    <span className="text-[#0067BC] text-xl">→</span>
                     <span>Over 27 hours of hands-on training</span>
                   </div>
                   <div className="flex items-start space-x-3">
-                    <span className="text-[#47c1bf] text-xl">→</span>
+                    <span className="text-[#0067BC] text-xl">→</span>
                     <span>RHCSA exam preparation</span>
                   </div>
                   <div className="flex items-start space-x-3">
-                    <span className="text-[#47c1bf] text-xl">→</span>
+                    <span className="text-[#0067BC] text-xl">→</span>
                     <span>Career advancement resources</span>
                   </div>
                   <div className="flex items-start space-x-3">
-                    <span className="text-[#47c1bf] text-xl">→</span>
+                    <span className="text-[#0067BC] text-xl">→</span>
                     <span>Interview preparation</span>
                   </div>
                   <div className="flex items-start space-x-3">
-                    <span className="text-[#47c1bf] text-xl">→</span>
+                    <span className="text-[#0067BC] text-xl">→</span>
                     <span>Resume building workshops</span>
                   </div>
                   <div className="flex items-start space-x-3">
-                    <span className="text-[#47c1bf] text-xl">→</span>
+                    <span className="text-[#0067BC] text-xl">→</span>
                     <span>Lifetime community access</span>
                   </div>
                 </div>
 
-                <p className="text-2xl font-bold text-[#47c1bf] mb-12">
+                <p className="text-2xl font-bold text-[#0067BC] mb-12">
                   (Total Value: <span className="line-through text-gray-400">$2,997</span>)
                 </p>
 
@@ -621,15 +621,15 @@ export default function Home() {
                   </h3>
                   <div className="flex flex-col items-center space-y-4">
                     <div className="flex items-center space-x-3">
-                      <span className="w-8 h-8 bg-[#47c1bf] rounded-full flex items-center justify-center text-white font-bold">1</span>
+                      <span className="w-8 h-8 bg-[#0067BC] rounded-full flex items-center justify-center text-white font-bold">1</span>
                       <span>Click the button below</span>
                     </div>
                     <div className="flex items-center space-x-3">
-                      <span className="w-8 h-8 bg-[#47c1bf] rounded-full flex items-center justify-center text-white font-bold">2</span>
+                      <span className="w-8 h-8 bg-[#0067BC] rounded-full flex items-center justify-center text-white font-bold">2</span>
                       <span>Complete your registration</span>
                     </div>
                     <div className="flex items-center space-x-3">
-                      <span className="w-8 h-8 bg-[#47c1bf] rounded-full flex items-center justify-center text-white font-bold">3</span>
+                      <span className="w-8 h-8 bg-[#0067BC] rounded-full flex items-center justify-center text-white font-bold">3</span>
                       <span>Start your journey to a six-figure Linux career today</span>
                     </div>
                   </div>
@@ -638,7 +638,7 @@ export default function Home() {
                 {/* CTA Button */}
                 <button 
                   onClick={() => highlightOrderForm()}
-                  className="bg-[#47c1bf] text-white text-xl px-12 py-6 rounded-xl shadow-lg hover:bg-[#339e9c] transition-all duration-300 transform hover:scale-105 mb-8 font-bold"
+                  className="bg-[#0067BC] text-white text-xl px-12 py-6 rounded-xl shadow-lg hover:bg-[#005ba8] transition-all duration-300 transform hover:scale-105 mb-8 font-bold"
                 >
                   Yes! I Want Lifetime Access For Just $599!
                 </button>
@@ -676,7 +676,7 @@ export default function Home() {
               isHighlighted ? 'ring-8 ring-red-500 scale-[1.02] animate-pulse' : ''
             }`}
           >
-            <div className="bg-[#47c1bf] text-white p-4 rounded-t-lg -mt-6 -mx-6 mb-6">
+            <div className="bg-[#0067BC] text-white p-4 rounded-t-lg -mt-6 -mx-6 mb-6">
               <h3 className="text-2xl font-bold text-center">
                 SPECIAL OFFER: Lifetime Access Just $599!
               </h3>
@@ -735,7 +735,7 @@ export default function Home() {
                 </div>
                 <button 
                   type="submit"
-                  className="w-full bg-[#47c1bf] text-white py-4 rounded-lg font-bold text-xl hover:bg-[#3aa8a6] transition-colors"
+                  className="w-full bg-[#0067BC] text-white py-4 rounded-lg font-bold text-xl hover:bg-[#005ba8] transition-colors"
                 >
                   Secure Your Spot Now
                 </button>
