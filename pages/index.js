@@ -151,7 +151,10 @@ export default function Home() {
                 Master Red Hat Linux: Your Gateway to a Six-Figure Tech Career
               </h2>
               <p className="text-xl text-gray-600">
-                Transform your career in just 4 weeks with our intensive Red Hat Linux Bootcamp - designed for ambitious professionals ready to command top positions in tech.
+                Transform your career in just 4 weeks with our intensive Red Hat Linux Bootcamp - designed for ambitious professionals ready to command top positions in tech.{' '}
+                <span className="text-red-500 animate-pulse font-bold">
+                  Jan 6th, 2025
+                </span>
               </p>
             </div>
           </div>
@@ -204,7 +207,7 @@ export default function Home() {
                   Get Lifetime Access To Our Complete Red Hat Linux Administrator Training Program...
                 </h2>
                 <p className="text-xl md:text-2xl text-gray-700 mb-8">
-                  ...And Over 27 Hours of Hands-On Labs, Practice Tests, and Career Resources For <span className="font-bold">99% Off!</span>
+                  ...And Over 48 Hours of Hands-On Labs, Practice Tests, and Career Resources For <span className="font-bold">99% Off!</span>
                 </p>
                 <button 
                   onClick={() => highlightOrderForm()}
