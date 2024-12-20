@@ -110,7 +110,7 @@ export default function Home() {
           </div>
           {/* Phone Number */}
           <div>
-            <a href="tel:+17033092325" className="text-xl text-gray-800 hover:text-gray-900">
+            <a href="tel:+17033092325" className="text-xl text-red-500 font-bold hover:text-red-600">
               +1 (703) 309-2325
             </a>
           </div>
@@ -123,54 +123,43 @@ export default function Home() {
           </p>
         </div>
 
+        {/* Main Title Section with Logos */}
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <div className="flex items-start gap-6">
+            <div className="flex-shrink-0 flex flex-col items-center gap-4">
+              <Image
+                src="/linuxmuscular.png"
+                alt="Linux Muscular"
+                width={80}
+                height={80}
+                priority
+                className="rounded-full"
+              />
+              <Image
+                src="/Logos/SCENERGYLINKLOGO.png"
+                alt="Scenergylink Logo"
+                width={150}
+                height={45}
+                priority
+              />
+            </div>
+            <div>
+              <h1 className="text-4xl md:text-5xl font-black text-[#333] leading-tight mb-4">
+                RED HAT LINUX ADMINISTRATION BOOTCAMP
+              </h1>
+              <h2 className="text-2xl md:text-3xl font-bold text-gray-700 mb-4">
+                Master Red Hat Linux: Your Gateway to a Six-Figure Tech Career
+              </h2>
+              <p className="text-xl text-gray-600">
+                Transform your career in just 4 weeks with our intensive Red Hat Linux Bootcamp - designed for ambitious professionals ready to command top positions in tech.
+              </p>
+            </div>
+          </div>
+        </div>
+
         <div className="grid md:grid-cols-2 gap-8 items-start">
           {/* Left Column */}
           <div className="space-y-6">
-            <div className="text-center md:text-left">
-              <div className="flex items-center justify-center md:justify-start gap-4 mb-6">
-                <div className="relative w-16 h-16">
-                  <div className="absolute inset-0">
-                    <Image
-                      src="/linuxmuscular.png"
-                      alt="Linux Muscular"
-                      width={64}
-                      height={64}
-                      className="rounded-full"
-                      priority
-                    />
-                  </div>
-                </div>
-                <div className="h-[60px] w-[200px] relative">
-                  <Image
-                    src="/Logos/SCENERGYLINKLOGO.png"
-                    alt="Scnergylink Logo"
-                    width={200}
-                    height={60}
-                    priority
-                  />
-                </div>
-              </div>
-              <h1 className="text-5xl md:text-6xl font-black text-[#333] leading-tight">
-                RED HAT LINUX ADMINISTRATION BOOTCAMP
-              </h1>
-              <div>
-                <h2 className="text-2xl md:text-3xl font-bold text-gray-700 mb-4">
-                  Master Red Hat Linux: Your Gateway to a Six-Figure Tech Career
-                </h2>
-                <p className="text-xl text-gray-600 mb-8">
-                  Transform your career in just 4 weeks with our intensive Red Hat Linux Bootcamp - designed for ambitious professionals ready to command top positions in tech.
-                </p>
-              </div>
-              <div>
-                <h3 className="text-2xl font-bold text-gray-800 mb-4">
-                  Why This Bootcamp Is Different
-                </h3>
-                <p className="text-lg text-gray-600">
-                  Our proven system has launched over 500 successful Linux administrators into high-paying positions. We don't just teach - we transform careers.
-                </p>
-              </div>
-            </div>
-
             {/* Video Section */}
             <div className="bg-white rounded-lg overflow-hidden shadow-lg">
               <div className="relative aspect-video">
