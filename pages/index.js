@@ -95,11 +95,11 @@ export default function Home() {
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
       </Head>
 
-      <main className="container mx-auto px-4 py-8">
+      <main className="container mx-auto px-4 sm:px-6 lg:px-8 py-8">
         {/* Top Bar */}
-        <div className="flex justify-between items-center mb-8">
+        <div className="flex flex-col md:flex-row justify-between items-center mb-8">
           {/* Logo */}
-          <div className="w-[200px]">
+          <div className="w-48 md:w-64 mb-4 md:mb-0">
             <Image
               src="/Logos/SCENERGYLINKLOGO.png"
               alt="Scenergylink Logo"
@@ -110,7 +110,7 @@ export default function Home() {
           </div>
           {/* Phone Number */}
           <div>
-            <a href="tel:+17033092325" className="text-xl text-red-500 font-bold hover:text-red-600">
+            <a href="tel:+17033092325" className="text-lg md:text-xl text-red-500 font-bold hover:text-red-600">
               +1 (703) 309-2325
             </a>
           </div>
@@ -124,8 +124,8 @@ export default function Home() {
         </div>
 
         {/* Main Title Section with Logos */}
-        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
-          <div className="flex items-start gap-6">
+        <div className="bg-white rounded-lg shadow-lg p-4 md:p-8 mb-8">
+          <div className="flex flex-col md:flex-row items-center md:items-start gap-6">
             <div className="flex-shrink-0 flex flex-col items-center gap-4">
               <Image
                 src="/linuxmuscular.png"
@@ -133,7 +133,7 @@ export default function Home() {
                 width={80}
                 height={80}
                 priority
-                className="rounded-full"
+                className="rounded-full w-20 h-20 md:w-[80px] md:h-[80px]"
               />
               <Image
                 src="/Logos/SCENERGYLINKLOGO.png"
@@ -141,16 +141,17 @@ export default function Home() {
                 width={150}
                 height={45}
                 priority
+                className="w-32 md:w-[150px]"
               />
             </div>
-            <div>
-              <h1 className="text-4xl md:text-5xl font-black text-[#333] leading-tight mb-4">
+            <div className="text-center md:text-left">
+              <h1 className="text-3xl md:text-4xl lg:text-5xl font-black text-[#333] leading-tight mb-4">
                 RED HAT LINUX ADMINISTRATION BOOTCAMP
               </h1>
-              <h2 className="text-2xl md:text-3xl font-bold text-gray-700 mb-4">
+              <h2 className="text-xl md:text-2xl lg:text-3xl font-bold text-gray-700 mb-4">
                 Master Red Hat Linux: Your Gateway to a Six-Figure Tech Career
               </h2>
-              <p className="text-xl text-gray-600">
+              <p className="text-lg md:text-xl text-gray-600">
                 Transform your career in just 4 weeks with our intensive Red Hat Linux Bootcamp - designed for ambitious professionals ready to command top positions in tech.{' '}
                 <span className="text-red-500 animate-pulse font-bold">
                   Jan 6th, 2025
@@ -160,7 +161,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-8 items-start">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8 items-start">
           {/* Left Column */}
           <div className="space-y-6">
             {/* Video Section */}
@@ -203,30 +204,30 @@ export default function Home() {
             <div className="mt-12 space-y-8">
               <div className="text-center">
                 <p className="text-red-500 font-handwriting text-2xl mb-4">Our Best Offer in History...</p>
-                <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+                <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
                   Get Lifetime Access To Our Complete Red Hat Linux Administrator Training Program...
                 </h2>
-                <p className="text-xl md:text-2xl text-gray-700 mb-8">
+                <p className="text-lg md:text-xl lg:text-2xl text-gray-700 mb-8">
                   ...And Over 48 Hours of Hands-On Labs, Practice Tests, and Career Resources For <span className="font-bold">99% Off!</span>
                 </p>
                 <button 
                   onClick={() => highlightOrderForm()}
-                  className="bg-[#0067BC] text-white text-xl px-8 py-4 rounded-lg shadow-lg hover:bg-[#005ba8] transition-colors mb-8"
+                  className="w-full md:w-auto bg-[#0067BC] text-white text-lg md:text-xl px-4 md:px-8 py-3 md:py-4 rounded-lg shadow-lg hover:bg-[#005ba8] transition-colors mb-8"
                 >
                   Yes! I Want All Access For Just $599!
                 </button>
-                <p className="text-gray-600 font-handwriting text-xl">
+                <p className="text-gray-600 font-handwriting text-lg md:text-xl">
                   Keep Scrolling to See Everything You're Getting Today...
                 </p>
               </div>
 
-              <div className="bg-white rounded-lg p-8 shadow-lg">
+              <div className="bg-white rounded-lg p-4 md:p-8 shadow-lg">
                 <div className="text-center">
-                  <p className="text-red-500 text-2xl mb-4">Amazing Offer #1</p>
-                  <h3 className="text-3xl font-bold text-gray-900 mb-6">
+                  <p className="text-red-500 text-xl md:text-2xl mb-4">Amazing Offer #1</p>
+                  <h3 className="text-2xl md:text-3xl font-bold text-gray-900 mb-6">
                     The Complete RHCSA Certification Training Program!
                   </h3>
-                  <p className="text-lg text-gray-700 mb-8">
+                  <p className="text-base md:text-lg text-gray-700 mb-8">
                     The Red Hat Administrator Bootcamp helps you master every required skill to become a certified Linux professional in just 4 weeks, including system administration, networking, security, and all essential RHCSA exam topics.
                   </p>
                   
